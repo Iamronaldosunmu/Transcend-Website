@@ -1,0 +1,51 @@
+/*=============================================
+=            FONTS            =
+=============================================*/
+
+@import './base/fonts.scss';
+
+/*=====  End of FONTS  ======*/
+
+
+
+
+/*=============================================
+=            Utils            =
+=============================================*/
+@import './utils/functions.scss';
+@import './utils/variables.scss';
+@import "./utils/breakpoints.scss";
+@import "./utils/mixins.scss";
+
+/*=====  End of Utils  ======*/
+
+/*=============================================
+=            Base           =
+=============================================*/
+
+@import "./base/reset.scss";
+@import "./base/base.scss";
+
+
+/*=====  End of Base ======*/
+
+
+/*=============================================
+=            Components            =
+=============================================*/
+
+@import "./components/preloader.scss";
+@import "./components/navigation.scss";
+
+
+/*=====  End of Components  ======*/
+
+
+
+/*=============================================
+=            Pages            =
+=============================================*/
+
+@import "./pages/home/hero.scss"
+
+/*=====  End of Pages  ======*/

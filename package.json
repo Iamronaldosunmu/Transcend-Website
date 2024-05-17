@@ -1,0 +1,22 @@
+{
+  "name": "transcend-website",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently --kill-others \"vite\" \"npm run sass\"",
+    "build": "vite build",
+    "preview": "vite preview",
+    "sass": "sass --watch sass:css"
+  },
+  "devDependencies": {
+    "vite": "^5.2.0"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "events": "^3.3.0",
+    "gsap": "^3.12.5",
+    "lodash": "^4.17.21",
+    "sass": "^1.77.1"
+  }
+}

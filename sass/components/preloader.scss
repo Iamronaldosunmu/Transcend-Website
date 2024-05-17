@@ -1,0 +1,55 @@
+.preloader {
+    @extend %cover;
+    background-color: $color-white-grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: z('preloader__wrapper');
+
+    &__wrapper {
+        background-color: $color-black;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: z('preloader__wrapper');
+    }
+
+    &__logo-container {
+        opacity: 0;
+
+        img {
+            width: 27rem;
+        }
+    }
+
+    &__text {
+        font-size: 1.8rem;
+        font-weight: 500;
+        position: absolute;
+        bottom: 32px;
+        color: $color-white-grey;
+        font-family: 'Ninetea';
+        opacity: 0;
+        display: inline-block;
+        // width: 0px;
+    }
+    &__number {
+        width: 30px;
+        display: inline-block;
+    }
+
+    &__loader {
+        position: fixed;
+        bottom: 0;
+        background-color: $color-light-grey;
+        height: 0%;
+        left: 0;
+        right: 0;
+        width: 100%;
+        z-index: z('preloader__loader-bg');
+
+    }
+}

@@ -1,0 +1,42 @@
+.hero {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+    &__bg {
+        position: absolute;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    &__text {
+        &__subtitle {
+            font-family: $font-ninetea;
+            color: $color-white-grey;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 16px;
+            letter-spacing: -0.32px;
+            text-transform: uppercase;
+        }
+
+        &__title {
+            font-size: 72px;
+            font-weight: 400;
+            -webkit-text-stroke-width: 1.522552251815796;
+            -webkit-text-stroke-color: var(--color-hex--White-grey-100, #E6E6E6);
+            font-family: GOVER;
+            font-size: 72px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: -1.44px;
+            text-transform: uppercase;
+        }
+    }
+}

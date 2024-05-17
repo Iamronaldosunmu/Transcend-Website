@@ -1,0 +1,234 @@
+/*=============================================
+=            Ninetea            =
+=============================================*/
+@font-face {
+  font-family: "Ninetea SemBd";
+  src: url("/fonts/Ninetea-SemiBold.woff2") format("woff2"), url("/fonts/Ninetea-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Ninetea SemBd";
+  src: url("/fonts/Ninetea-SemiBold.woff2") format("woff2"), url("/fonts/Ninetea-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Ninetea";
+  src: url("/fonts/Ninetea-Regular.woff2") format("woff2"), url("/fonts/Ninetea-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Ninetea";
+  src: url("/fonts/Ninetea-Bold.woff2") format("woff2"), url("/fonts/Ninetea-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Ninetea";
+  src: url("/fonts/Ninetea-Regular.woff2") format("woff2"), url("/fonts/Ninetea-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Ninetea";
+  src: url("/fonts/Ninetea-Bold.woff2") format("woff2"), url("/fonts/Ninetea-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Ninetea Med";
+  src: url("/fonts/Ninetea-Medium.woff2") format("woff2"), url("/fonts/Ninetea-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Ninetea";
+  src: url("/fonts/Ninetea-ExtraBold.woff2") format("woff2"), url("/fonts/Ninetea-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Ninetea Med";
+  src: url("/fonts/Ninetea-Medium.woff2") format("woff2"), url("/fonts/Ninetea-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Ninetea ExtBd";
+  src: url("/fonts/Ninetea-ExtraBold.woff2") format("woff2"), url("/fonts/Ninetea-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Ninetea";
+  src: url("/fonts/Ninetea-Regular.woff2") format("woff2"), url("/fonts/Ninetea-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Ninetea";
+  src: url("/fonts/Ninetea-SemiBold.woff2") format("woff2"), url("/fonts/Ninetea-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Ninetea";
+  src: url("/fonts/Ninetea-Black.woff2") format("woff2"), url("/fonts/Ninetea-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Ninetea ExtBd";
+  src: url("/fonts/Ninetea-ExtraBold.woff2") format("woff2"), url("/fonts/Ninetea-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Ninetea SemBd";
+  src: url("/fonts/Ninetea-SemiBold.woff2") format("woff2"), url("/fonts/Ninetea-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Ninetea";
+  src: url("/fonts/Ninetea-Black.woff2") format("woff2"), url("/fonts/Ninetea-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Ninetea";
+  src: url("/fonts/Ninetea-Black.woff2") format("woff2"), url("/fonts/Ninetea-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Ninetea Med";
+  src: url("/fonts/Ninetea-Medium.woff2") format("woff2"), url("/fonts/Ninetea-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Ninetea ExtBd";
+  src: url("/fonts/Ninetea-ExtraBold.woff2") format("woff2"), url("/fonts/Ninetea-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Ninetea Med";
+  src: url("/fonts/Ninetea-Medium.woff2") format("woff2"), url("/fonts/Ninetea-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Ninetea";
+  src: url("/fonts/Ninetea-Regular.woff2") format("woff2"), url("/fonts/Ninetea-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Ninetea";
+  src: url("/fonts/Ninetea-Black.woff2") format("woff2"), url("/fonts/Ninetea-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Ninetea";
+  src: url("/fonts/Ninetea-Bold.woff2") format("woff2"), url("/fonts/Ninetea-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Ninetea";
+  src: url("/fonts/Ninetea-Medium.woff2") format("woff2"), url("/fonts/Ninetea-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Ninetea";
+  src: url("/fonts/Ninetea-Bold.woff2") format("woff2"), url("/fonts/Ninetea-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Ninetea";
+  src: url("/fonts/Ninetea-Regular.woff2") format("woff2"), url("/fonts/Ninetea-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Ninetea";
+  src: url("/fonts/Ninetea-Bold.woff2") format("woff2"), url("/fonts/Ninetea-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Ninetea ExtBd";
+  src: url("/fonts/Ninetea-ExtraBold.woff2") format("woff2"), url("/fonts/Ninetea-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Ninetea SemBd";
+  src: url("/fonts/Ninetea-SemiBold.woff2") format("woff2"), url("/fonts/Ninetea-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Ninetea";
+  src: url("/fonts/Ninetea-Black.woff2") format("woff2"), url("/fonts/Ninetea-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+/*=====  End of Ninetea  ======*/
+/*=============================================
+=            Gover            =
+=============================================*/
+@font-face {
+  font-family: "GOVER";
+  src: url("GOVERRegular.woff2") format("woff2"), url("GOVERRegular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "GOVER";
+  src: url("GOVERRegular.woff2") format("woff2"), url("GOVERRegular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+/*=====  End of Gover  ======*/
+
+/*# sourceMappingURL=fonts.css.map */
