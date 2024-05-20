@@ -722,6 +722,11 @@ table {
   border-spacing: 0;
 }
 
+button {
+  background-color: transparent;
+  border: 0;
+}
+
 *,
 *:after,
 *:before {
@@ -735,6 +740,7 @@ html {
   line-height: 1;
   overflow: hidden;
   position: fixed;
+  cursor: none;
 }
 @media (max-width: 424px) {
   html {
@@ -742,16 +748,36 @@ html {
   }
 }
 
+.clickable {
+  cursor: none;
+}
+
 /*=====  End of Base ======*/
 /*=============================================
 =            Components            =
 =============================================*/
+.cursor {
+  position: fixed;
+  top: -6px;
+  left: -12px;
+  z-index: 8;
+  opacity: 0;
+  contain: layout style size;
+  pointer-events: none;
+}
+.cursor svg {
+  width: 35px;
+}
+.cursor svg path {
+  transition: 0.3s fill;
+}
+
 .preloader {
   background-color: #E6E6E6;
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 6;
+  z-index: 7;
 }
 .preloader__wrapper {
   background-color: #222226;
@@ -761,7 +787,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 6;
+  z-index: 7;
 }
 .preloader__logo-container {
   opacity: 0;
@@ -791,7 +817,7 @@ html {
   left: 0;
   right: 0;
   width: 100%;
-  z-index: 5;
+  z-index: 6;
 }
 
 .top-nav {
@@ -803,6 +829,8 @@ html {
   padding: 24px 30px 0;
   justify-content: space-between;
   z-index: 0;
+  opacity: 0;
+  z-index: 5;
 }
 .top-nav__menu-toggle {
   display: flex;
@@ -811,50 +839,99 @@ html {
   gap: 8px;
   font-size: 16px;
   color: #E6E6E6;
+  font-family: "GOVER";
 }
 .top-nav__menu-hamburger {
   width: 24px;
+}
+
+.container {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
 }
 
 /*=====  End of Components  ======*/
 /*=============================================
 =            Pages            =
 =============================================*/
+span {
+  display: inline-block;
+}
+
 .hero {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 }
 .hero__bg {
   position: absolute;
+  inset: 0;
+  z-index: 1;
+  opacity: 0;
 }
 .hero__bg img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
+.hero__text {
+  padding-left: 7.2rem;
+  padding-bottom: 9rem;
+  z-index: 4;
+}
 .hero__text__subtitle {
   font-family: "Ninetea";
   color: #E6E6E6;
-  font-size: 16px;
+  font-size: 1.6rem;
   font-style: normal;
   font-weight: 700;
   line-height: 16px;
   letter-spacing: -0.32px;
   text-transform: uppercase;
+  overflow: hidden;
+}
+.hero__text__subtitle img {
+  width: 1.6rem;
 }
 .hero__text__title {
-  font-size: 72px;
-  font-weight: 400;
-  -webkit-text-stroke-width: 1.5225522518;
-  -webkit-text-stroke-color: var(--color-hex--White-grey-100, #E6E6E6);
-  font-family: GOVER;
-  font-size: 72px;
+  font-family: "GOVER";
+  font-size: 7.2rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   letter-spacing: -1.44px;
   text-transform: uppercase;
+  color: #E6E6E6;
+  margin-top: 15px;
+  overflow: hidden;
+}
+.hero__text__title span {
+  display: inline-block;
+}
+.hero__text__title--outline {
+  -webkit-text-stroke-width: 1.5225522518px;
+  color: transparent;
+  -webkit-text-stroke-color: #E6E6E6;
+}
+.hero__text__subtext {
+  color: #B8B9C1;
+  margin-top: 1.5rem;
+  font-family: "Ninetea";
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.8rem;
+  letter-spacing: -0.48px;
+}
+.hero__text__subtext span.bold {
+  color: #E6E6E6;
+}
+.hero__text__subtext__subtext__line-container {
+  overflow: hidden;
 }
 
 /*# sourceMappingURL=index.css.map */

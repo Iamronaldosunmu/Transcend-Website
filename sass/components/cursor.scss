@@ -1,0 +1,18 @@
+.cursor {
+    position: fixed;
+    top: -6px;
+    left: -12px;
+    z-index: z('cursor');
+    opacity: 0;
+    contain: layout style size;
+    pointer-events: none;
+
+    svg {
+        width: 35px;
+
+        path {
+            transition: 0.3s fill;
+        }
+    }
+
+}

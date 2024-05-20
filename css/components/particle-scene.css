@@ -1,0 +1,7 @@
+.container {
+  position: absolute;
+  inset: 0;
+  z-index: z("particle-scene");
+}
+
+/*# sourceMappingURL=particle-scene.css.map */

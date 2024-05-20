@@ -6,13 +6,18 @@
 }
 
 html {
-    background-color: $color-black;
+  background-color: $color-black;
   font-size: calc(100vw / 1440 * 10);
   line-height: 1;
   overflow: hidden;
   position: fixed;
+  cursor: none;
 
   @include media('<phone') {
     font-size: calc(100vw / 750 * 10);
   }
+}
+
+.clickable {
+  cursor: none;
 }

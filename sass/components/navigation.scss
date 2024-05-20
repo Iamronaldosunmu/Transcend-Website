@@ -7,6 +7,8 @@
     padding: 24px 30px 0;
     justify-content: space-between;
     z-index: 0;
+    opacity: 0;
+    z-index: z('navigation');
 
     &__menu-toggle {
         display: flex;
@@ -15,7 +17,7 @@
         gap: 8px;
         font-size: 16px;
         color: $color-white-grey;
-        // font-family: $font-ninetea;
+        font-family: $font-gover;
     }
 
     &__menu-hamburger {

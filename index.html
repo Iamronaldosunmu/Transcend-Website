@@ -11,6 +11,13 @@
 
 <body>
   <div id="app">
+    <div class="cursor">
+      <svg width="20" height="20" viewBox="0 0 39 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M12.6697 7.14718L12.6721 7.14577C15.7937 5.32545 19.6106 5.75531 22.2224 8.03996C22.6275 8.40378 22.9978 8.79443 23.3349 9.23164L24.1268 8.62108L23.3349 9.23165L36.4802 26.2825L36.4864 26.2905L36.4926 26.2983L37.4808 27.5282L31.2198 31.1637L20.7689 17.6074L20.7688 17.6072C20.1201 16.7662 18.9703 16.5587 18.0662 17.0767L18.0662 17.0767L18.0604 17.0801C17.1597 17.6041 16.7644 18.7036 17.1686 19.6859L17.1686 19.686L23.6833 35.5149L17.4043 39.1193L16.8333 37.6487L16.8296 37.6393L16.8258 37.63L8.63205 17.7203L8.632 17.7202C8.42188 17.2098 8.26874 16.6939 8.15629 16.1612C7.48348 12.757 9.01969 9.23644 12.157 7.44318L12.1594 7.44178C12.2352 7.3982 12.3108 7.35631 12.3863 7.31618L12.4175 7.29963L12.4474 7.28092C12.5199 7.23557 12.594 7.19104 12.6697 7.14718Z"
+          fill="#E6E6E6" stroke="#E6E6E6" stroke-width="2" />
+      </svg>
+    </div>
     <div class="preloader">
       <div class="preloader__wrapper">
         <figure class="preloader__logo-container">
@@ -25,26 +32,49 @@
     </div>
     <main>
       <nav class="top-nav">
-        <figure class="top-nav__logo">
+        <figure class="top-nav__logo clickable">
           <img src="/assets/top-nav/nav-logo.svg" />
         </figure>
-        <div class="top-nav__menu-toggle">
+        <button class="top-nav__menu-toggle clickable">
           <p>MENU</p>
           <figure class="top-nav__menu-hamburger">
             <img src="/assets/top-nav/menu-hamburger.svg" />
           </figure>
-        </div>
+        </button>
       </nav>
       <section class="section hero">
+        <div class="container"></div>
+
         <figure class="hero__bg">
           <img src="/assets/home/hero/hero-bg.svg" />
         </figure>
         <div class="hero__text">
           <p class="hero__text__subtitle">
             <img src="/assets/home/hero/right-arrow.svg" />
-            <span>BRAND AND PRODUCT DESIGN AGENCY</span>
+            <span>WEB DESIGN AND DEVELOPMENT AGENCY</span>
           </p>
-          <h1 class="hero__text__title">TRANSCEND THE NORM.</h1>
+          <h1 class="hero__text__title">
+            <div><span>TRANSCEND</span> <span class="hero__text__title--outline">THE</span> <span
+                class="hero__text__title--outline">NORM.</span></div>
+          </h1>
+          <p class="hero__text__subtext">
+            <span class="hero__text__subtext__line-container">
+              <span class="hero__text__subtext__line">Forward thinking <span class="bold">brands</span> partner with us
+                to
+                <span class="bold">break</span></span>
+            </span>
+            <br />
+            <span class="hero__text__subtext__line-container">
+              <span class="hero__text__subtext__line">
+                <span class="bold">boundaries,</span>
+                challenge the status quo and make a
+              </span>
+            </span>
+            <br />
+            <span class="hero__text__subtext__line-container"><span class="hero__text__subtext__line"><span
+                  class="bold">lasting
+                  impact</span> in their industries.</span></span>
+          </p>
         </div>
       </section>
     </main>

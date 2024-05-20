@@ -472,4 +472,9 @@ table {
   border-spacing: 0;
 }
 
+button {
+  background-color: transparent;
+  border: 0;
+}
+
 /*# sourceMappingURL=reset.css.map */

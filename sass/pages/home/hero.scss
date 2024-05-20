@@ -1,10 +1,20 @@
+span {
+    display: inline-block;
+}
+
 .hero {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 
     &__bg {
         position: absolute;
+        inset: 0;
+        z-index: z('hero-bg');
+        opacity: 0;
 
         img {
             width: 100%;
@@ -14,29 +24,68 @@
     }
 
     &__text {
+        padding-left: 7.2rem;
+        padding-bottom: 9rem;
+        z-index: z('hero');
+
         &__subtitle {
             font-family: $font-ninetea;
             color: $color-white-grey;
-            font-size: 16px;
+            font-size: 1.6rem;
             font-style: normal;
             font-weight: 700;
             line-height: 16px;
             letter-spacing: -0.32px;
             text-transform: uppercase;
+            overflow: hidden;
+
+            img {
+                width: 1.6rem;
+            }
         }
 
         &__title {
-            font-size: 72px;
-            font-weight: 400;
-            -webkit-text-stroke-width: 1.522552251815796;
-            -webkit-text-stroke-color: var(--color-hex--White-grey-100, #E6E6E6);
-            font-family: GOVER;
-            font-size: 72px;
+            font-family: $font-gover;
+            font-size: 7.2rem;
             font-style: normal;
             font-weight: 400;
             line-height: normal;
             letter-spacing: -1.44px;
             text-transform: uppercase;
+            color: $color-white-grey;
+            margin-top: 15px;
+            overflow: hidden;
+
+            // opacity: 0;
+            span {
+                display: inline-block;
+            }
+
+            &--outline {
+                -webkit-text-stroke-width: 1.522552251815796px;
+                color: transparent;
+                -webkit-text-stroke-color: $color-white-grey;
+            }
+        }
+
+        &__subtext {
+            color: #B8B9C1;
+            margin-top: 1.5rem;
+            font-family: $font-ninetea;
+            font-size: 2.4rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 2.8rem;
+            letter-spacing: -0.48px;
+            // opacity: 0;
+
+            span.bold {
+                color: $color-white-grey;
+            }
+
+            &__subtext__line-container {
+                overflow: hidden;
+            }
         }
     }
 }
