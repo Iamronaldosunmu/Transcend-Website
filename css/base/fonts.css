@@ -217,14 +217,14 @@
 =============================================*/
 @font-face {
   font-family: "GOVER";
-  src: url("GOVERRegular.woff2") format("woff2"), url("GOVERRegular.woff") format("woff");
+  src: url("/fonts/GOVERRegular.woff2") format("woff2"), url("/fonts/GOVERRegular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "GOVER";
-  src: url("GOVERRegular.woff2") format("woff2"), url("GOVERRegular.woff") format("woff");
+  src: url("/fonts/GOVERRegular.woff2") format("woff2"), url("/fonts/GOVERRegular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
