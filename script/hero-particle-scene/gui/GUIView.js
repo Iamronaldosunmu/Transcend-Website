@@ -7,11 +7,11 @@ export default class GUIView {
 		this.app = app;
 
 		this.particlesHitArea = false;
-		this.particlesRandom = 2;
-		this.particlesDepth = 4;
-		this.particlesSize = 0.5;
+		this.particlesRandom = 10;
+		this.particlesDepth = 1;
+		this.particlesSize = 0.01;
 
-		this.touchRadius = 0.15;
+		this.touchRadius = 0.5;
 
 		this.range = [0, 1];
 		this.rangeRandom = [1, 10];

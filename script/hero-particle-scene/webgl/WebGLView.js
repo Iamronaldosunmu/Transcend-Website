@@ -13,7 +13,7 @@ export default class WebGLView {
             // 'images/sample-03.png',
             '/assets/home/hero/particle-scene/sample-06.png',
             // 'images/sample-04.png',
-            // 'images/sample-05.png',
+            // 'images/sample-06.png',
         ];
 
         this.initThree();

@@ -38,6 +38,7 @@
 @import "./components/preloader.scss";
 @import "./components/navigation.scss";
 @import "./components/particle-scene.scss";
+@import "./components/menu.scss";
 
 
 /*=====  End of Components  ======*/
@@ -48,6 +49,8 @@
 =            Pages            =
 =============================================*/
 
-@import "./pages/home/hero.scss"
+@import "./pages/home/hero.scss";
+@import "./pages/home/about.scss";
+@import "./pages/home/footer.scss";
 
 /*=====  End of Pages  ======*/

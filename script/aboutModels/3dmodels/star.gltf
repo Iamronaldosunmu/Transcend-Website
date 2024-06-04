@@ -1,0 +1,651 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "THREE.GLTFExporter"
+  },
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "scene": 0,
+  "nodes": [
+    {
+      "children": [
+        16
+      ],
+      "matrix": [
+        0.01,
+        0,
+        0,
+        0,
+        0,
+        0.01,
+        0,
+        0,
+        0,
+        0,
+        0.01,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "name": "Object_4",
+      "mesh": 0
+    },
+    {
+      "matrix": [
+        -2.506308518138353,
+        -8.252729329323515e-10,
+        0.017496782274509917,
+        0,
+        -0.017496782274509917,
+        -2.8811343025482776e-12,
+        -2.5063085181383524,
+        0,
+        8.252729351062806e-10,
+        -2.5063695907592773,
+        -2.8800212508571255e-12,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "Circle_0",
+      "children": [
+        1
+      ]
+    },
+    {
+      "name": "Object_6",
+      "mesh": 1
+    },
+    {
+      "matrix": [
+        2.5063695907592773,
+        0,
+        0,
+        0,
+        0,
+        5.565258455762561e-16,
+        2.5063695907592773,
+        0,
+        0,
+        -2.5063695907592773,
+        5.565258455762561e-16,
+        0,
+        0,
+        0,
+        0.5669801831245422,
+        1
+      ],
+      "name": "Circle001_1",
+      "children": [
+        3
+      ]
+    },
+    {
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        2.220446049250313e-16,
+        1,
+        0,
+        0,
+        -1,
+        2.220446049250313e-16,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "GLTF_SceneRootNode",
+      "children": [
+        2,
+        4
+      ]
+    },
+    {
+      "name": "root",
+      "children": [
+        5
+      ]
+    },
+    {
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        2.220446049250313e-16,
+        -1,
+        0,
+        0,
+        1,
+        2.220446049250313e-16,
+        0,
+        -3.122818670320271e-10,
+        -1.641459203256999e-10,
+        0.005613209214061499,
+        1
+      ],
+      "name": "Sketchfab_model",
+      "children": [
+        6
+      ]
+    },
+    {
+      "matrix": [
+        0.1,
+        0,
+        0,
+        0,
+        0,
+        0.1,
+        0,
+        0,
+        0,
+        0,
+        0.1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "star",
+      "children": [
+        7
+      ]
+    },
+    {
+      "matrix": [
+        0.8578943578499841,
+        0.4077589233275893,
+        -0.3126498540154603,
+        0,
+        0.4292793640248686,
+        -0.903171759756916,
+        0,
+        0,
+        -0.28237651883888615,
+        -0.13421413049422481,
+        -0.9498684481464322,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "Directional Light 3",
+      "extensions": {
+        "KHR_lights_punctual": {
+          "light": 0
+        }
+      }
+    },
+    {
+      "matrix": [
+        0.19544262078017152,
+        -0.5544394518965534,
+        0.8089493656362106,
+        0,
+        -0.9431193994666796,
+        -0.3324542048908536,
+        0,
+        0,
+        0.2689386181495468,
+        -0.7629358399177743,
+        -0.587878324006569,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "Directional Light 2",
+      "extensions": {
+        "KHR_lights_punctual": {
+          "light": 1
+        }
+      }
+    },
+    {
+      "matrix": [
+        0.29411848563471676,
+        0.5174650489796805,
+        -0.803569685523538,
+        0,
+        0.8693813154105089,
+        -0.4941418100253137,
+        0,
+        0,
+        -0.3970773788860732,
+        -0.6986084702244625,
+        -0.5952106858143612,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "Directional Light",
+      "extensions": {
+        "KHR_lights_punctual": {
+          "light": 2
+        }
+      }
+    },
+    {
+      "matrix": [
+        0.7401387728990925,
+        -0.5502884431208188,
+        0.3864935008756178,
+        0,
+        -0.5966530831046034,
+        -0.8024992825054558,
+        0,
+        0,
+        0.310160757145705,
+        -0.2306025388973291,
+        -0.9222921303908588,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "Directional Light 4",
+      "extensions": {
+        "KHR_lights_punctual": {
+          "light": 3
+        }
+      }
+    },
+    {
+      "matrix": [
+        1,
+        0,
+        8.700093410695479e-10,
+        0,
+        4.791715113092164e-19,
+        1,
+        -5.507659385819305e-10,
+        0,
+        -8.700093410695479e-10,
+        5.507659385819305e-10,
+        1,
+        0,
+        -8.700093410695479e-7,
+        5.507659385819301e-7,
+        1000,
+        1
+      ],
+      "name": "Default Camera",
+      "camera": 0
+    },
+    {
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        -6.12322692550293e-17,
+        0,
+        0,
+        6.12322692550293e-17,
+        1,
+        0,
+        -0.011803684074233782,
+        -0.022762019216354557,
+        1000,
+        1
+      ],
+      "camera": 1
+    },
+    {
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "name": "Default Ambient Light"
+    },
+    {
+      "name": "Scene",
+      "children": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 600,
+      "target": 34962,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 600,
+      "byteLength": 600,
+      "target": 34962,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1200,
+      "byteLength": 400,
+      "target": 34962,
+      "byteStride": 8
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1600,
+      "byteLength": 336,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1936,
+      "byteLength": 600,
+      "target": 34962,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 2536,
+      "byteLength": 600,
+      "target": 34962,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3136,
+      "byteLength": 400,
+      "target": 34962,
+      "byteStride": 8
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 3536,
+      "byteLength": 336,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 3872,
+      "uri": "data:application/octet-stream;base64,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"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 50,
+      "max": [
+        0.4488120377063751,
+        1,
+        0.3838407099246979
+      ],
+      "min": [
+        -0.4550110101699829,
+        0.8774480223655701,
+        -0.47542497515678406
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 50,
+      "max": [
+        0.6436620354652405,
+        3.630120509745538e-12,
+        0.5482680201530457
+      ],
+      "min": [
+        -0.6439951062202454,
+        -0.1113351583480835,
+        -0.6763667464256287
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 50,
+      "max": [
+        0,
+        0
+      ],
+      "min": [
+        0,
+        0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5125,
+      "count": 84,
+      "max": [
+        49
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 50,
+      "max": [
+        0.44884100556373596,
+        1,
+        0.38386544585227966
+      ],
+      "min": [
+        -0.4550401568412781,
+        0.8774312734603882,
+        -0.47545552253723145
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 50,
+      "max": [
+        0.6436620354652405,
+        4.1467661304750436e-8,
+        0.5482680201530457
+      ],
+      "min": [
+        -0.6439951062202454,
+        -0.1113351583480835,
+        -0.6763667464256287
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 50,
+      "max": [
+        0,
+        0
+      ],
+      "min": [
+        0,
+        0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5125,
+      "count": 84,
+      "max": [
+        49
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "mode": 4,
+          "attributes": {
+            "NORMAL": 0,
+            "POSITION": 1,
+            "TEXCOORD_0": 2
+          },
+          "extras": {
+            "parameters": {
+              "width": 1.2876571416854858,
+              "height": 0.11133515835171362,
+              "depth": 1.2246347665786743,
+              "subdivisions": 0
+            },
+            "type": "NonParametricGeometry"
+          },
+          "indices": 3
+        }
+      ]
+    },
+    {
+      "primitives": [
+        {
+          "mode": 4,
+          "attributes": {
+            "NORMAL": 4,
+            "POSITION": 5,
+            "TEXCOORD_0": 6
+          },
+          "extras": {
+            "parameters": {
+              "width": 1.2876571416854858,
+              "height": 0.1113351998157448,
+              "depth": 1.2246347665786743,
+              "subdivisions": 0
+            },
+            "type": "NonParametricGeometry"
+          },
+          "indices": 7
+        }
+      ]
+    }
+  ],
+  "extensions": {
+    "KHR_lights_punctual": {
+      "lights": [
+        {
+          "name": "Directional Light 3",
+          "color": [
+            1,
+            0.6196078431372549,
+            0.9450980392156862
+          ],
+          "intensity": 1.4,
+          "type": "directional"
+        },
+        {
+          "name": "Directional Light 2",
+          "color": [
+            0.20784313725490197,
+            0.2,
+            1
+          ],
+          "intensity": 1,
+          "type": "directional"
+        },
+        {
+          "name": "Directional Light",
+          "color": [
+            1,
+            0.5019607843137255,
+            0.39215686274509803
+          ],
+          "intensity": 1,
+          "type": "directional"
+        },
+        {
+          "name": "Directional Light 4",
+          "color": [
+            0.4470588235294118,
+            0.7294117647058823,
+            1
+          ],
+          "intensity": 1.9,
+          "type": "directional"
+        }
+      ]
+    }
+  },
+  "cameras": [
+    {
+      "type": "orthographic",
+      "orthographic": {
+        "xmag": 5.864444999999999,
+        "ymag": 3.172501843749999,
+        "zfar": 50000,
+        "znear": 0
+      },
+      "name": "Camera"
+    },
+    {
+      "type": "orthographic",
+      "orthographic": {
+        "xmag": 0.0060700186619448235,
+        "ymag": 0.003283711484482651,
+        "zfar": 100000,
+        "znear": 0
+      }
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_lights_punctual"
+  ]
+}

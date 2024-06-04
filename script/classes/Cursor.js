@@ -11,7 +11,7 @@ const lerp = (a, b, n) => (1 - n) * a + n * b;
 
 let mouse = { x: 0, y: 0 };
 window.addEventListener('mousemove', (ev) => (mouse = getMousePos(ev)));
-
+// TODO: modify cursor to show properly in the footer
 export default class Cursor {
     constructor(el) {
         this.Cursor = el;

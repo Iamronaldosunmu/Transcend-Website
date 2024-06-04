@@ -4,7 +4,7 @@ span {
 
 .hero {
     width: 100vw;
-    height: 100vh;
+    height: 100dvh;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -28,6 +28,10 @@ span {
         padding-bottom: 9rem;
         z-index: z('hero');
 
+        @include media("<=tablet") {
+            padding: 70px 20px;
+        }
+
         &__subtitle {
             font-family: $font-ninetea;
             color: $color-white-grey;
@@ -42,6 +46,10 @@ span {
             img {
                 width: 1.6rem;
             }
+
+            @include media("<=tablet") {
+                text-align: center;
+            }
         }
 
         &__title {
@@ -55,6 +63,12 @@ span {
             color: $color-white-grey;
             margin-top: 15px;
             overflow: hidden;
+
+            @include media("<=tablet") {
+                margin-top: 10px;
+                font-size: 36px;
+                text-align: center;
+            }
 
             // opacity: 0;
             span {
@@ -77,7 +91,20 @@ span {
             font-weight: 400;
             line-height: 2.8rem;
             letter-spacing: -0.48px;
+
             // opacity: 0;
+            @include media("<=tablet") {
+                font-size: 16px;
+                text-align: center;
+
+                br {
+                    display: none;
+                }
+
+                span {
+                    display: inline;
+                }
+            }
 
             span.bold {
                 color: $color-white-grey;

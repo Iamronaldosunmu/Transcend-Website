@@ -2,6 +2,10 @@
 $color-black: #222226;
 $color-white-grey: #E6E6E6;
 $color-light-grey: #3A3A40;
+$color-grey-900: #545454;
+$color-grey-300: #C8C8C8;
+$color-white: #FAFAFA;
+$color-white-grey-950: #363636;
 // END COLORS
 
 $font-ninetea: 'Ninetea';
@@ -13,9 +17,12 @@ $z-indexes: (
     'cursor',
     'preloader__wrapper',
     'preloader__loader-bg',
+    'menu',
     'navigation',
     'hero',
     'particle-scene',
     'hero-text',
+    'about__details__text',
+    'about__details__image',
     'hero-bg',
 );

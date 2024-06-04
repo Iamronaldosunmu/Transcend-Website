@@ -218,8 +218,9 @@ export default class Particles {
 
 	resize() {
 		if (!this.object3D) return;
+		console.log(this.webgl.fovHeight)
 
-		const scale = this.webgl.fovHeight / this.height;
+		const scale = window.innerWidth < 500 ? (window.innerWidth < 450 ? 0.27 : 0.35) : this.webgl.fovHeight / this.height;
 		this.object3D.scale.set(scale, scale, 1);
 		this.hitArea.scale.set(scale, scale, 1);
 	}

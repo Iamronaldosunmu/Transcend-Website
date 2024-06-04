@@ -15,7 +15,6 @@ export default class Hero extends Component {
             }
         })
         this.elements.titleSpans = this.elements.title.querySelectorAll('span')
-        console.log(this.elements)
     }
 
     showHero() {
@@ -28,6 +27,20 @@ export default class Hero extends Component {
                 scale: 1, duration: 10, ease: 'linear'
             })
         }
+        this.fadeHeroOut = GSAP.timeline({
+            scrollTrigger: {
+                trigger: '.hero',
+                start: 'top',
+                end: "+=500vh",
+                scrub: 0,
+                markers: true
+            }
+        })
+        this.fadeHeroOut.to('.hero', {
+            delay: 5, 
+            duration: 1, 
+            opacity: 0, 
+        })
         this.animateHeroIn = GSAP.timeline({ delay: 0.1 })
         this.animateHeroIn.fromTo(this.elements.topNav, {
             opacity: 0,

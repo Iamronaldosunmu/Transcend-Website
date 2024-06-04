@@ -1,0 +1,188 @@
+.menu {
+    z-index: z('menu');
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #E6E6E6;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    // opacity: 0;
+    // z-index: -1;
+    // clip-path: polgon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%);
+
+    &__top-nav {
+        width: 100%;
+        padding: 24px 30px 0;
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+
+        &__logo {
+            img {
+                @include media("<=tablet") {
+                    height: 15px;
+                }
+            }
+        }
+
+        &__menu-toggle {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            font-size: 16px;
+            color: $color-white-grey;
+            font-family: $font-gover;
+            color: $color-black;
+
+
+            @include media("<=tablet") {
+                font-size: 15px;
+            }
+        }
+    }
+
+    &__container {
+        padding: 7.2rem 30px 24px;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        &__left {
+            padding-left: 9.6rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+        }
+
+        &__right {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    }
+
+    &__nav-items {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    &__nav-item {
+        display: flex;
+        font-family: $font-gover;
+        opacity: 0;
+
+        &-container {
+            position: relative;
+            overflow: hidden;
+
+            &:not(:first-of-type) {
+                margin-top: 3rem;
+            }
+        }
+
+        &__number {
+            width: 1.2rem;
+            font-size: 1.5rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: -0.3px;
+            // text-transform: uppercase;
+            margin-right: 8px;
+        }
+
+        &__text {
+            color: $color-black;
+            font-size: 6.4rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: -1.28px;
+            text-transform: uppercase;
+        }
+    }
+
+    &__contact-info {
+        display: flex;
+        flex-direction: column;
+
+        &__link-container {
+            text-decoration: none;
+            color: $color-black;
+            font-family: $font-gover;
+            font-weight: 900;
+            font-size: 1.8rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-transform: uppercase;
+            overflow: hidden;
+
+            &:last-of-type {
+                margin-top: 5px;
+            }
+        }
+
+        &__link {
+            display: inline-block;
+            position: relative;
+            // opacity: 0
+        }
+    }
+
+    &__showreel {
+        width: 44.4rem;
+        height: 31.6rem;
+        background-color: $color-light-grey;
+        scale: 0.9;
+        opacity: 0;
+    }
+
+    &__social-links {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+    }
+
+    &__social-link {
+        &__inner {
+            position: relative;
+            display: inline-block;
+        }
+
+        &:not(:first-of-type) {
+            margin-top: 1.8rem;
+        }
+
+        display: inline-flex;
+        align-items: center;
+        text-decoration: none;
+        color: $color-black;
+        overflow: hidden;
+
+        span {
+            margin-right: 10px;
+            display: inline-block;
+            text-align: right;
+            font-family: $font-gover;
+            font-size: 1.8rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 100%;
+            /* 18px */
+            text-transform: uppercase;
+        }
+
+        img {
+            width: 1.8rem;
+        }
+
+    }
+}

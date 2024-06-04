@@ -1,9 +1,10 @@
-/* Error: Undefined variable.
+/* Error: Undefined mixin.
  *    ,
- * 32 |             font-family: $font-ninetea;
- *    |                          ^^^^^^^^^^^^^
+ * 31 | /         @include media("<=tablet") {
+ * 32 | |             padding: 70px 20px;
+ * 33 | \         }
  *    '
- *   sass/pages/home/hero.scss 32:26  root stylesheet */
+ *   sass/pages/home/hero.scss 31:9  root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -13,5 +14,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 32 \2502              font-family: $font-ninetea;\a    \2502                           ^^^^^^^^^^^^^\a    \2575 \a   sass/pages/home/hero.scss 32:26  root stylesheet";
+  content: 'Error: Undefined mixin.\a    \2577 \a 31 \2502  \250c          @include media("<=tablet") {\a 32 \2502  \2502              padding: 70px 20px;\a 33 \2502  \2514          }\a    \2575 \a   sass/pages/home/hero.scss 31:9  root stylesheet';
 }

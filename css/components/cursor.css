@@ -1,17 +1,18 @@
-.cursor {
-  position: fixed;
-  top: -6px;
-  left: -12px;
-  z-index: z("cursor");
-  opacity: 0;
-  contain: layout style size;
-  pointer-events: none;
-}
-.cursor svg {
-  width: 35px;
-}
-.cursor svg path {
-  transition: 0.3s fill;
-}
+/* Error: Undefined mixin.
+ *    ,
+ * 9  | /     @include media("<=tablet") {
+ * 10 | |         display: none;
+ * 11 | \     }
+ *    '
+ *   sass/components/cursor.scss 9:5  root stylesheet */
 
-/*# sourceMappingURL=cursor.css.map */
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: Undefined mixin.\a    \2577 \a 9  \2502  \250c      @include media("<=tablet") {\a 10 \2502  \2502          display: none;\a 11 \2502  \2514      }\a    \2575 \a   sass/components/cursor.scss 9:5  root stylesheet';
+}

@@ -6,6 +6,9 @@
     opacity: 0;
     contain: layout style size;
     pointer-events: none;
+    @include media("<=tablet") {
+        display: none;
+    }
 
     svg {
         width: 35px;

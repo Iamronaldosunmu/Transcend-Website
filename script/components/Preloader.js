@@ -28,10 +28,10 @@ export default class Preloader extends Component {
             paddingBottom: 0,
             scaleY: 1.15
         }, {
-            paddingLeft: 32,
-            paddingRight: 32,
-            paddingTop: 20,
-            paddingBottom: 20,
+            paddingLeft: '3.2rem',
+            paddingRight: '3.2rem',
+            paddingTop: '2rem',
+            paddingBottom: '2rem',
             scaleY: 1,
             duration: 0.5,
             ease: Power2.easeOut
