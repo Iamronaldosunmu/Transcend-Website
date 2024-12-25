@@ -6,6 +6,7 @@ $color-grey-900: #545454;
 $color-grey-300: #C8C8C8;
 $color-white: #FAFAFA;
 $color-white-grey-950: #363636;
+$color-grey-400: #91939F;
 // END COLORS
 
 $font-ninetea: 'Ninetea';
@@ -20,6 +21,8 @@ $z-indexes: (
     'menu',
     'navigation',
     'hero',
+    'services-title-sides',
+    'services',
     'particle-scene',
     'hero-text',
     'about__details__text',

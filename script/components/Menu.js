@@ -21,7 +21,6 @@ export default class Menu extends Component {
         this.menuAnimation = GSAP.timeline({ paused: true })
         this.menuAnimation.set('.menu__nav-item', {
             y: '12.5rem',
-            // skewX: -20,
             skewY: 10
         })
         this.menuAnimation.to(this.element, {
@@ -65,6 +64,9 @@ export default class Menu extends Component {
             stagger: 0.1,
             duration: 0.3,
         }, "-=0.7")
+        this.menuAnimation.set('.menu__social-link', {
+            overflow: 'unset'
+        })
     }
 
     addEventListeners() {
